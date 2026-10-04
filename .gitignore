@@ -1,0 +1,30 @@
+# secrets
+server/.env
+coach/config.json
+keystore.properties
+*.keystore
+*.jks
+
+# server data
+server/db/
+
+# android / gradle
+.gradle/
+build/
+/app/build/
+/captures/
+local.properties
+.idea/
+*.iml
+.kotlin/
+.DS_Store
+__pycache__/
+
+# personal coach data (kept local only)
+coach/athlete.md
+coach/plans/
+server.properties
+CLAUDE.local.md
+
+# built APKs (they embed the server URL)
+dist/
